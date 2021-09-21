@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:teal;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+}
+
+header > h1 {
+    color: #25272E;
+    text-align: center;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.score-board {
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color:white;
+    font-size: 40px;
+    padding: 15px 20px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    position: relative;
+}
+
+.badge {
+    background-color: tomato;
+    color:white;
+    font-size: 15px;
+    padding: 2px 10px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#You-label {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#PC-label {
+    position: absolute;
+    top: 30px;
+    right: -25px;
+}
+
+.result {
+    font-size: 40px;
+    color: white;
+}
+
+.result > p {
+    font-size: 25px;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.choices {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.choice{
+    padding: 30px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    border: 2px solid black;
+    margin: 0 20px;
+}
+
+#msg {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.green-glow{
+    background-color: lightgreen;
+    transition: all 0.1s ease-in-out;
+}
+
+.red-glow {
+    background-color: red;
+    transition: all 0.1s ease-in-out;
+}
+
+.grey-glow {
+    background-color: grey;
+    transition: all 0.1s ease-in-out;
+}
